@@ -1,0 +1,16 @@
+public static void main(String[] args) {
+           String str="Anna";
+              String reverseString = "";
+
+
+           for(int i=str.length()-1;i>=0;--i){
+               reverseString+=str.charAt(i);
+           }
+           if(str.toLowerCase().equals(reverseString.toLowerCase())){
+               System.out.println(str +" TRUE ");
+           }else{
+               System.out.println(str + " FALSE ");
+           }
+
+    }
+}
